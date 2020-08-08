@@ -1,0 +1,5 @@
+{
+    "jwtSecret": "jwt",
+    "secret": "yoursecret",
+    "mongoURI": "mongouri"
+}

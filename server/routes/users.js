@@ -20,7 +20,8 @@ const {
 router.post("/register", async (req, res) => {
     const {
         email,
-        password
+        password,
+        name
     } = req.body;
     await User.find({
         email

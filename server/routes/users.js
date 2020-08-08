@@ -48,8 +48,7 @@ router.post("/login", async (req, res) => {
         email,
         password
     } = req.body;
-    console.log(req.body);
-    successResponse(res, req.body, "messge")
+   // console.log(req.body);
     await User.find({
             email
         }).then(async (data) => {

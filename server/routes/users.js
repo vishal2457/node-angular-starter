@@ -21,7 +21,6 @@ router.post("/register", async (req, res) => {
     const {
         email,
         password,
-        name
     } = req.body;
     await User.find({
         email
@@ -51,7 +50,6 @@ router.post("/login", async (req, res) => {
     } = req.body;
     console.log(req.body);
     successResponse(res, req.body, "messge")
-    return;
     await User.find({
             email
         }).then(async (data) => {

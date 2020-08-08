@@ -1,2 +1,3 @@
 # node-angular-starter
-This is a basic Node Angular starter with authentication.
+This is a basic MEAN starter with authentication.
+
